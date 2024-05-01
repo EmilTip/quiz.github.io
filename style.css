@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+body{
+    font-family: 'Madimi One';
+}
+.Emil{
+    margin-top: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.start{
+    margin-top: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size:30px;
+    user-select: none;
+}
+.Question{
+    font-size:66px;
+    text-shadow: 3px 3px gray;
+    user-select: none;
+}
+.Answer-row{
+    display: flex;
+    flex-direction: row;
+}
+.Answer{
+    user-select: none;
+    cursor: pointer;
+    font-size: 35px;
+    display: flex;
+    margin-left: 15px;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid gray;
+    border-radius: 5px;
+    width: 100px;
+    height: 70px;
+    box-shadow: 3px 3px rgb(88, 88, 88);
+}
+.start-button{
+    border: 3px solid gray;
+    border-radius: 5px;
+    display: flex;
+    margin-left: 15px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px rgb(88, 88, 88);
+}
+.start-button:active{
+    box-shadow: 0px 0px white;
+    scale: 0.9;
+}
+.Text{
+    user-select: none;
+    margin-top: 50px;
+    cursor: pointer;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    text-shadow: 3px 3px gray;
+    align-items: center;
+}
+p{
+    user-select: none;
+    margin-top: 50px;
+    cursor: pointer;
+    font-size:50px;
+    display: flex;
+    justify-content: center;
+    text-shadow: 3px 3px gray;
+    align-items: center;
+}
+h1{
+    text-shadow: 3px 3px gray
+}
+.end{
+    display: flex;
+    justify-content: center;
+    user-select: none;
+    align-items: center;
+}
